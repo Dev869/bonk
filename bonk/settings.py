@@ -76,11 +76,10 @@ WSGI_APPLICATION = 'bonk.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': BASE_DIR / 'db.postgresql',
+        'NAME': 'db.bonk',
         'USER': 'devin',
         'PASSWORD': 'wilson',
         'HOST': '127.0.0.1',
-        'PORT': '5432'
     }
 }
 
