@@ -40,3 +40,27 @@
 2022-06-15 15:01:23.537 PDT [69331] STATEMENT:  REMOVE USER devin;
 2022-06-15 15:01:29.502 PDT [69331] ERROR:  syntax error at or near "USER" at character 8
 2022-06-15 15:01:29.502 PDT [69331] STATEMENT:  DELETE USER devin;
+2022-06-15 15:03:18.179 PDT [70022] FATAL:  database "db.bonk" does not exist
+2022-06-15 15:05:29.103 PDT [70364] FATAL:  database "db.bonk" does not exist
+2022-06-15 15:05:36.645 PDT [70399] FATAL:  database "db.bonk" does not exist
+2022-06-15 15:06:20.458 PDT [70532] LOG:  invalid length of startup packet
+2022-06-15 15:06:21.488 PDT [70536] LOG:  invalid length of startup packet
+2022-06-15 15:06:24.821 PDT [70540] LOG:  invalid length of startup packet
+2022-06-15 15:06:40.597 PDT [69177] LOG:  received fast shutdown request
+2022-06-15 15:06:40.597 PDT [69177] LOG:  aborting any active transactions
+2022-06-15 15:06:40.598 PDT [70482] FATAL:  terminating connection due to administrator command
+2022-06-15 15:06:40.598 PDT [69177] LOG:  background worker "logical replication launcher" (PID 69184) exited with exit code 1
+2022-06-15 15:06:40.599 PDT [69179] LOG:  shutting down
+2022-06-15 15:06:40.605 PDT [69177] LOG:  database system is shut down
+2022-06-15 15:10:18.879 PDT [71013] LOG:  starting PostgreSQL 14.3 on aarch64-apple-darwin20.6.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2022-06-15 15:10:18.882 PDT [71013] LOG:  listening on IPv6 address "::1", port 5432
+2022-06-15 15:10:18.882 PDT [71013] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-06-15 15:10:18.882 PDT [71013] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-06-15 15:10:18.886 PDT [71014] LOG:  database system was shut down at 2022-06-15 15:06:40 PDT
+2022-06-15 15:10:18.889 PDT [71013] LOG:  database system is ready to accept connections
+2022-06-15 15:11:02.731 PDT [71118] ERROR:  syntax error at or near "/" at character 1
+2022-06-15 15:11:02.731 PDT [71118] STATEMENT:  /d
+	/dt
+	/dt;
+2022-06-15 15:11:05.371 PDT [71118] ERROR:  syntax error at or near "/" at character 1
+2022-06-15 15:11:05.371 PDT [71118] STATEMENT:  /dt;
